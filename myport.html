@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reethika V</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+     
+
+  <body>
+    <div id="header">
+      <div class="containerH">
+        <nav>
+         <ul>
+             <li style="font-style: oblique;"> <a href:"/">Reethika V </a> </li>
+             <li style="float:right;"><a href="#connect">CONTACT</a></li>
+             <li style="float:right;"><a href="#projectwork">WORK</a></li>
+             <li style="float:right;"><a href="#about">ABOUT ME</a></li>
+             <li style="float:right;"><a href="#HP">HOME</a></li>
+         </ul>
+        </nav>
+      </div>
+    </div>  
+
+  
+    <div class="index" id="HP">
+      <div>
+        <img src="./1146200_8374-01.jpeg.jpg" alt="logo" width="450" height="450">
+      </div>
+      <div>
+        <h2 style="font-size: 50px">Hello Everyone!</h2>
+        <h2  style="font-size: 50px"> Myself Reethika</h2>
+        <h2  style="font-size: 50px">A newbie to UI & WEB Development</h2>
+      </div>
+
+
+    </div>
+
+    <!----- about ---->
+    <div id="about">
+      <div class="containerA">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./WhatsApp Image 2023-06-22 at 08.11.41.jpg" style="display:inline" alt="pic" width="350" height="350">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title" >About Me</h1>
+            <p>My name is <span>Reethika</span><br> I'm an degree student at Kristu Jayanti College pursuing my BCA Degree, and Im doing my intership in Velozion Private lmt Company as a FrontEnd Developer
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('interests')">INTERESTS:</p>
+             
+            </div>
+            <div class="tab-contents active-tab" id="interests">
+              <ul>
+                <li><span>FrontEnd Developer</span><br>HTML,CSS,JS.</li><br><br>
+                <li><span>Web Developer</span><br>intermediate level.</li><br><br>
+                <li><span>Git and GitHub</span><br>basics of git and github.</li>
+             
+              </ul>
+            </div>
+           
+          </div>
+        </div> 
+      </div>
+    </div>
+<script>
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classlist.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classlist.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classlist.add("active-tab");
+  }
+
+</script>
+
+
+        <!---- skills---->
+
+        <h1 style="text-align: center">SKILLS</h1>
+        <div class="container2" id="talent"></div>
+        <div>VB.Net Framework</div>
+
+        <div class="progress-bar">
+          <div class="progress-bar-fill" style="width: 60%;"></div>
+        </div>  
+        
+        <div>Basics of Git and GIthub</div>
+
+                <div class="progress-bar">
+                  <div class="progress-bar-fill" style="width: 30%;"></div>
+                </div>
+
+                <div>HTML,CSS,JS</div>
+
+                <div class="progress-bar">
+                  <div class="progress-bar-fill" style="width: 75%;"></div>
+                </div>
+
+                <div>web designing</div>
+
+                <div class="progress-bar">
+                  <div class="progress-bar-fill" style="width: 50%;"></div>
+                </div>
+
+      </div>
+      <br>
+
+      <h1 style="text-align:center">EDUCATION</h1>
+      <div ID="school" class="container3">
+        
+        <br> 
+        <br>
+          <div><h2>SSLC</h2>
+          
+          <a href="https://mariamnilayaschool.in/"> <img src="./download.jpg" alt="school" width="300" height="300"></a>
+          <div>i Completed my SSLC in Mariam Nilaya High School in the year 2019.</div>
+        </div>
+      
+        
+      <div class="container3">
+       
+          <div><h2>Pre-University</h2>
+         
+            <a href="https://nhpuc.in/"><img src="./new-horizon-pre-university-college-logo.jpg" alt="pu" width="300" height="300"></a>
+          <div>I Completed my PU in New Horizon PU College in the year 2021 .</div>
+        </div>
+       
+          <div><h2>Undergraduate</h2>
+        
+            <a href="https://kristujayanti.edu.in/home/"> <img src="./images.png" alt="kjc" width="300" height="300"></a>
+          <div>currently pursing BCA from Kristu Jayanti College and gratuating year is 2024 </div>
+        </div>
+       </div><br>
+       </div>
+
+    
+              <!---works-->
+              <h1> WORKS</h1>
+
+              <div class="works" id="projectwork">
+                <div>
+                  <img src="./Galaxia-2k22.jpg" alt="galaxia" width="400" height="400">
+</div>
+<div>     <img src="./home page.jpg" alt="project" width="400" height="400">
+                </div>
+              </div>
+                <div class="text">
+                <h2><div>I have worked on two projects namely,<br><br>
+                  MESQITA :the first Electronics Project that i have worked in my 3rd sem for the GALAXIA Inter College Fest <br></div>
+                  
+                   
+              <div> D.I.Y Cooking: It was developed in VB.net as a IV sem project </div>
+               
+            
+                   
+                </div></h2><br>
+
+    
+<!-- ----contact---- -->
+<div id="connect">
+  <div class="container5">
+   
+      <h1 class="sub-title">Contact Me</h1><br>
+     <h2> <p>Mail: vreethika2803@gmail.com</p></h2>
+    
+      
+  </div>
+</div>
+
+      <h1 style="float: left;">CONTACT</h1>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br><br>
+      
+      <div class="social">
+        <div class="wrapper">
+            <a href="https://www.instagram.com/reethireetu/">
+        <img class="img1" src="./ins.jpg" alt="insta" width="100" height="100"></a>
+    </div>
+
+    <div class="wrapper">
+        <a href="https://twitter.com/Reethika_V05">
+        <img class="img1" src="./twitter.png" alt="twitter" width="100" height="100"></a>
+    </div>
+
+    <div class="wrapper">
+        <a href="https://github.com/ReethikaV53">
+        <img class="img1" src="./github (1).png" alt="git" width="100" height="100"></a>
+    </div>
+
+    <div class="wrapper">
+        <a href="https://www.linkedin.com/in/reethika-v-937442237/">
+        <img class="img1" src="./linkedin.png" alt="linkedin" width="100" height="100"></a>
+    </div>
+</div>
+          
+        <br>
+        </body>
+        <footer class="end">
+          <p style="text-align: center;">&copy; 2023 REETHIKA V. Made with love &#9829; .</p>
+        </footer> 
+  
+</html>
